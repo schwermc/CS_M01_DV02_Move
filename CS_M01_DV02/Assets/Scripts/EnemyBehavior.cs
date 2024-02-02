@@ -16,7 +16,7 @@ public class EnemyBehavior : MonoBehaviour
     {
         if (other.name == "Player")
         {
-            Debug.Log("Player out of rnager, resume patrol!");
+            Debug.Log("Player out of ranger, resume patrol!");
         }
     }
 }
